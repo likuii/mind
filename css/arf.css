@@ -1,48 +1,65 @@
 body {
-  background-color: #0c0202;
+  background-color: #333232;
+  color: #8f0;
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: helvetica neue, Helvetica
 }
 
 #body {
   margin: 0 auto;
-  position: relative;
+  position: relative
 }
 
 #header {
-  font-size: 40px;
-  font-weight: bold;
-  top: 20px;
-  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  top: 5px;
+  text-align: center
+}
+
+a:link {
+  color: #0ff
+}
+
+a:visited {
+  color: #0ff
+}
+
+a:hover {
+  color: red
+}
+
+a:active {
+  color: #00f
 }
 
 .legend {
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 0;
   width: 330px;
   font-size: 11px;
-  color: #000;
+  color: #0ff
 }
 
 .node {
-  cursor: pointer;
+  cursor: pointer
 }
 
 .node circle {
   cursor: pointer;
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 1.5px;
+  fill: #000;
+  stroke: #0059ff;
+  stroke-width: 1.5px
 }
 
 .node text {
   font-size: 12px;
-  fill: rgb(0, 0, 0);
+  fill: #0ff
 }
 
 path.link {
   fill: none;
-  stroke: #ccc;
-  stroke-width: 1px;
+  stroke: #ff0;
+  stroke-width: 1px
 }
